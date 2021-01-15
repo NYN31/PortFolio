@@ -1,0 +1,148 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        margin: 0 50px;
+    }
+    .hero-text-box h3 { font-size: 100%; }
+    .row { padding: 0 2%; }
+    h2 {font-size: 150%; }
+    
+    .section-working-experience p, h3{
+        font-size: 70%;
+        line-height: 150%;
+    }
+    .work { height: 200px;}
+    .long-copy { width: 80%; margin-left: 10%; font-size: 150%;}
+    .project h3 { font-size: 100%; }
+}
+
+/* Small tablet to big tablet: from  768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .hero-text-box {margin-top: 150px;}
+    body { font-size: 16px;}
+    body h2 { font-size: 150%; }
+    body h2:after { margin-top: 2%;}
+    .section-about h3 { font-size: 100%; }
+    .about-box img{
+        width: 120%;
+        margin-top: 120px;
+    }
+    .section-about p { font-size: 100%; }
+
+    .section-education h3, p { font-size: 100%; }
+
+    .section-skill img {
+        width: 150px;
+        border-radius: 10px;
+    }
+    .section-working-experience h3 { font-size: 100%; }
+
+    .all-judges .judge {
+        padding : 10px 5px ;
+        cursor : pointer ;
+    }
+    .long-copy {font-size: 120%;}
+    .all-judges .judge p{  font-size: 90%; }
+    .section-projects p { font-size: 90%; }
+
+    label { font-size: 90%; }
+    
+}
+@media only screen and (max-width: 800px) {
+    .burger { display: block; margin-right: 30px; }
+
+    .nav-list ul {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .nav-list ul li {
+        font-size: 130%;
+        text-align: right;
+        display: block;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 14px; overflow-x: hidden;}
+    .hero-text-box {margin-top: 200px;}
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    body h2 { font-size: 130%; }
+    body h2:after { margin-top: 2%;}
+    .col { width: 100%; }
+
+    /* about me */
+    .about-box img { width: 70%; margin: 2%;}
+    .all-in-line {
+        margin: 0% ;
+        line-height: 150%;
+    }
+    /* educational background */
+    .institute { padding: 15px 10px; margin: 1% 0%; }
+
+    /* skills */
+    .skill-list img { width: 80%; }
+    .skill-list { margin: 1% 0%; }
+    .all-judges .judge { margin: 1% 1%; }
+    /* working experience */
+    .work {margin: 1% 0%;}
+    .work p { font-size: 120%; }
+    /* all projects */
+    .project { margin: 1% 0%;}
+    .project h3 {font-size: 160%;}
+    .project p { font-size: 120%;}
+    /* contact info */
+    .contact {margin: 1% 0%;}
+    .contact-form div h3 { font-size: 100%; margin-bottom: 20px; }
+    .contact img { width: 50%; padding: 0;}
+    .contact {padding: 0; margin: 0;}
+    label { display: none; }
+    .section-contact .contact-form div:nth-child(4) label { display: block; margin: 5px;}
+    .section-contact .contact-form div { margin: 1%; }
+
+    .copyright { font-size: 80%; }
+}
+@media only screen and (max-width: 600px) {
+    .contact-form {width: 90%; }
+}
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body { overflow-x: hidden;}
+    .section-footer { padding: 1% 0% ; }
+    .hero-text-box { margin-top: 250px; margin-right: 0; margin-left: 0; }
+    body h1 { font-size: 130%; }
+    body h2 { font-size: 120%; }
+    body h2:after { margin-top: 2%; width: 70px;}
+    .work p { font-size: 100%; }
+    .contact-form {width: 100%; }
+    .contact-form div h3 { margin-bottom: 20px; }
+    .social-links li{ margin-left: 20px; }
+    .skill-list img { width: 100%; }
+    .copyright {
+        color: #888;
+        text-align: center;
+        margin-top: 15px ;
+        margin-bottom: 0px; 
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    body h1 { font-size: 100%; }
+    body h2 { font-size: 90%; }
+    .work p { font-size: 90%; }
+    .skill-list img { width: 100%; }
+
+}
