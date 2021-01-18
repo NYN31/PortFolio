@@ -170,11 +170,7 @@ header {
     float: left ;
     margin-top: 10px;
 }
-.logo:hover {
-    background-color: #58c3f5;
-    padding: 0px 0px;
-    border-radius: 5px;
-}
+
 .nav-list {
     float: right;
     display: inline-block;
@@ -223,7 +219,7 @@ header {
 
 .section-body {
     padding: 15% 0;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0 , 0.7)), url(../images/bg.JPG);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0 , 0.7)), url(../images/bg2.jpeg);
     height: 750px;
     width: 100%;
     background-size: cover;
@@ -504,3 +500,10 @@ input[type=checkbox] {
 .twitter:hover { color: #55acee ; }
 .linkedin:hover { color: #0077B5 ; }
 .instagram:hover { color: #e4405f ; }
+
+
+/*
+
+
+
+*/
