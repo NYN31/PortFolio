@@ -20,7 +20,7 @@
             </div>
             <div class="nav-list">
                 <ul class="main-nav" id="MenuItems">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#body">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skill</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -35,17 +35,18 @@
         </nav>
     </header>
 
-    <section class="section-body">
+    <section class="section-body" id="body">
         <div class="row">
             <div class="hero-text-box">
-                <h1><span class="span-color">M</span>d <span class="span-color">S</span>ajjad <span class="span-color">H</span>osen <br><span class="span-color">N</span>oyon</h1>
-                <h3><i class="fas fa-arrow-right icon-small"></i> Competitive Programmer <span class="span-color">&</span> Web Designer</h3>
+                <h1 class="js--wp-1"><span class="span-color">M</span>d <span class="span-color">S</span>ajjad <span class="span-color">H</span>osen</h1>
+                <h1 class="js--wp-2"><span class="span-color">N</span>oyon</h1>
+                <h3 class="js--wp-3"><i class="fas fa-arrow-right icon-small"></i> Competitive Programmer <span class="span-color">&</span> Web Designer</h3>
             </div>
         </div>
     </section>
 
-    <a name="about"></a>
-    <section class="section-about">
+
+    <section class="section-about" id="about">
         <div class="row title">
             <h2><span class="span-color">A</span>BOUT <span class="span-color">M</span>E</h2>
         </div>
@@ -110,46 +111,46 @@
             </div>
         </div>
     </section>
-    <a name="skills"></a>
-    <section class="section-skill">
+
+    <section class="section-skill" id="skills">
         <div class="row">
             <h2><span class="span-color">S</span>KILLS</h2>
         </div>
         <div class="skill-row">
             <div class="skills-showcase clearfix">
                 <div class="col span-1-of-4 skill-list c">
-                    <img src="resources/images/skill-images/c.png" alt="C programming">
+                    <img src="resources/images/skill-images/c.jpeg" alt="C programming">
                     
                 </div>
                 <div class="col span-1-of-4 skill-list cpp">
-                    <img src="resources/images/skill-images/cpp.png" alt="C++ programming">
+                    <img src="resources/images/skill-images/cpp.jpeg" alt="C++ programming">
                     
                 </div>
                 <div class="col span-1-of-4 skill-list python">
-                    <img src="resources/images/skill-images/python.png" alt="python programming">
+                    <img src="resources/images/skill-images/python.jpeg" alt="python programming">
                 </div>
                 <div class="col span-1-of-4 skill-list problem-solving">
-                    <img src="resources/images/skill-images/problem-solving.png" alt="problem-solving">
+                    <img src="resources/images/skill-images/problem-solving.jpeg" alt="problem-solving">
                 </div>
             </div>
             <div class="skills-showcase clearfix">
                 <div class="skill-list col span-1-of-4 ds-algo">
-                    <img src="resources/images/skill-images/ds-algo.png" alt="Data Structure & Algorithm">
+                    <img src="resources/images/skill-images/ds-algo.jpeg" alt="Data Structure & Algorithm">
                 </div>
                 <div class="skill-list col span-1-of-4 html">
-                    <img src="resources/images/skill-images/html.png" alt="HTML">
+                    <img src="resources/images/skill-images/html.jpeg" alt="HTML">
                 </div>
                 <div class="skill-list col span-1-of-4 css">
-                    <img src="resources/images/skill-images/css.png" alt="CSS">
+                    <img src="resources/images/skill-images/css.jpeg" alt="CSS">
                 </div>
                 <div class="skill-list col span-1-of-4 reactjs">
-                    <img src="resources/images/skill-images/reactjs.png" alt="React JS">
+                    <img src="resources/images/skill-images/reactjs.jpeg" alt="React JS">
                 </div>
             </div>
         </div>
     </section>
-    <a name="experience"></a>
-    <section class="section-CP-experience">
+    
+    <section class="section-CP-experience" id="experience">
         <div class="row">
             <h2><span class="span-color">P</span>roblem <span class="span-color">S</span>olving <span class="span-color">E</span>xperience</h2>
             <p class="long-copy">Total 1200+ problems solved in UVA, Codeforce, Codechef, at coder, Toph.co, Light Oj & SPOJ.</p>
@@ -238,8 +239,8 @@
             </div>
         </div>
     </section>
-    <a name="contact"></a>
-    <section class="section-contact">
+
+    <section class="section-contact" id="contact">
         <div class="row">
             <h2><span class="span-color">C</span>ontact <span class="span-color">I</span>nfo</h2>
         </div>
@@ -325,6 +326,11 @@
             <p class="copyright">Copyright &copy; 2021 by Md Sajjad Hosen Noyon.(Only Frontend)</p>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="resources/js/jquery.waypoints.min.js"></script>
+    
 
     <script>
         var MenuItems = document.getElementById("MenuItems") ;
