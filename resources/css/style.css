@@ -39,6 +39,15 @@ body {
     color: red;
     font-size: 200%;
 }
+.numbering {
+    background-color: yellow; 
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    height: 20px;
+    padding: 1% 1%;
+    float: left;
+}
 p {
     text-align: justify;
     font-size: 17px;
@@ -92,6 +101,8 @@ h3 {
     margin-bottom: 15px;
 }
 
+
+
 /********* PARAGRAPHS **********/
 .long-copy {
     width: 60%;
@@ -105,9 +116,17 @@ h3 {
 /*********** ICONS ************/
 .icon-big{
     text-align: center;
-    font-size: 350%;
+    font-size: 250%;
     display: block;
     color: red ;
+    margin-bottom: 10px;
+}
+
+.icon-middle{
+    text-align: center;
+    font-size: 170%;
+    display: block;
+    color: #fff ;
     margin-bottom: 10px;
 }
 
@@ -247,7 +266,7 @@ header {
 /* About Sectioin */
 /****************************************/
 .section-about {
-    padding: 3% 0;
+    padding: 2% 0;
 }
 .about-box img{
     width: 100%;
@@ -269,7 +288,7 @@ header {
 /* Education */
 /****************************************/
 .section-education{
-    padding: 3% 0;
+    padding: 2% 0;
     background-color: #312c51;
 }
 .institute h3 {
@@ -290,7 +309,7 @@ header {
 /* Skill */
 /****************************************/
 .section-skill {
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 .skills-showcase {
@@ -304,10 +323,9 @@ header {
 }
 
 .skill-list img{
-    width: 100%;
+    width: 95%;
     height: auto;
     border-radius: 20px;
-  
     transition: transform 0.5s, opacity 0.5s;
 }
 .skill-list img:hover{
@@ -321,7 +339,7 @@ header {
 /* PROBLEM SOLVING EXPERIENCE */
 /****************************************/
 .section-CP-experience {
-    padding: 3% 0;
+    padding: 2% 0;
     background-color: #00587a;
 }
 
@@ -373,36 +391,56 @@ header {
 /****************************************/
 /* WORKING EXPERIENCE */
 /****************************************/
+
 .section-working-experience {
-    padding: 3% 0;
+    padding: 2% 0;
     background-color: #00587a;
 }
-/* #64dfdf */
+.section-working-experience .bottom-space {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .work{
-    background: #312c51;
-    padding: 20px 10px;
+    background: #333;
+    padding: 10px 10px;
     border-radius: 10px;
     line-height: 100%;
     width: 100%;
-    height: 260px;
-    border: 1px solid #fff;
 }
 .work h3{
-    color: #e4bc97;
+    color: #fff;
     font-family: 'Bree Serif', serif;
     font-weight: 700;
+    font-size: 150%;
+    padding-top: 2.5%;
+    margin-bottom: 0px;
+    float: left;
+}
+.work i {
+    float: right;
+    cursor: pointer;
+    padding-top: 2.5%;
 }
 .work p {
     opacity: 1;
     color: #fff;
-    font-size: 75%; 
+    font-size: 100%; 
+    padding-right: 30px;
+    line-height: 30px;
 }
+
+.exp-hiding {
+    margin-top: 20px;
+    text-align: left;
+    display:  none;
+}
+
 
 /****************************************/
 /* ALL PROJECTS */
 /****************************************/
 .section-projects {
-    padding: 3% 0;
+    padding: 2% 0;
 }
 .project{
     background-color: #000;
@@ -425,7 +463,7 @@ header {
 /* CONTACT */
 /****************************************/
 .section-contact {
-    padding: 3% 0;
+    padding: 2% 0;
     background-color: #4d375d;
 }
 
@@ -482,7 +520,7 @@ input[type=checkbox] {
 /* Section footer */
 /****************************************/
 .section-footer {
-    padding: 3% 0;
+    padding: 2% 0;
     background-color: #222831;
     height: 200px;
 }

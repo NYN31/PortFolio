@@ -12,8 +12,8 @@
         font-size: 70%;
         line-height: 150%;
     }
-    .work { height: 200px;}
-    .work p { font-size: 60%; }
+    /* .work { height: 200px;} */
+    .work p { font-size: 100%; }
     .long-copy { width: 80%; margin-left: 10%; font-size: 150%;}
     .project h3 { font-size: 100%; }
 }
@@ -37,8 +37,7 @@
         width: 150px;
         border-radius: 10px;
     }
-    .section-working-experience h3 { font-size: 100%; }
-
+    /* .exp-hiding { margin: 1% 1%; } */
     .all-judges .judge {
         padding : 10px 5px ;
         cursor : pointer ;
@@ -100,6 +99,7 @@
     /* working experience */
     .work {margin: 1% 0%;}
     .work p { font-size: 120%; }
+    /* .exp-hiding { margin: 1% 1%; } */
     /* all projects */
     .project { margin: 1% 0%;}
     .project h3 {font-size: 160%;}
@@ -126,7 +126,8 @@
     body h1 { font-size: 130%; }
     body h2 { font-size: 120%; }
     body h2:after { margin-top: 2%; width: 70px;}
-    .work p { font-size: 80%; }
+    .work p { font-size: 100%; }
+    /* .exp-hiding { margin: 1% 1%; } */
     .contact-form {width: 100%; }
     .contact-form div h3 { margin-bottom: 20px; }
     .social-links li{ margin-left: 20px; }

@@ -205,34 +205,90 @@
         <div class="row">
             <h2><span class="span-color">W</span>orking <span class="span-color">E</span>xperience</h2>
         </div>
-        <div class="row">
-                <div class="col span-1-of-3 work TA">
-                    <h3><span class="span-color">"</span>Teacher Assistant</h3>
+        <div class="row bottom-space">
+            <div class="col span-1-of-1 work TA">
+                <div class="exp-heading">
+                    <h3>Teacher Assistant</h3>
+                    <div onclick="exptoggle1()">
+                        <i class="icon-middle fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <br> <br> <br> <br>
+                <div class="exp-hiding span-1-of-3" id="expItems-1">
                     <p>I was Teacher Assisitant in IIUC under the supervission of Professor Mohammad Shamsul Alam sir.</p>
                     <p>SUBJECT: Data Structure</p>
                 </div>
-                <div class="col span-1-of-3 work cp-trainer">
-                    <h3><span class="span-color">"</span>CP&dash;Trainer</h3>
+            </div>
+        </div>
+        <div class="row bottom-space">
+            <div class="col span-1-of-1 work trainer">
+                <div class="exp-heading">
+                    <h3>CP&dash;Trainer</h3>
+                    <div onclick="exptoggle2()">
+                        <i class="icon-middle fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <br> <br> <br> <br>
+                <div class="exp-hiding" id="expItems-2">
                     <p>I was trainer in IIUC Competitive programming Socity(Male). It was great experience for me to teach junior of my university.</p>
                 </div>
-                <div class="col span-1-of-3 work project-01">
-                    <h3><span class="span-color">"</span>Project-01</h3>
+            </div>
+        </div>
+        <div class="row bottom-space">
+            <div class="col span-1-of-1 work project-1">
+                <div class="exp-heading">
+                    <h3>Project-01</h3>
+                    <div onclick="exptoggle3()">
+                        <i class="icon-middle fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <br> <br> <br> <br>
+                <div class="exp-hiding" id="expItems-3">
                     <p>Now working on University Final year project named Travel guide & tour management systems under the supervission of Professor Mohammad Shamsul Alam sir.</p>
                     <p>LANGUAGE: HTML, CSS, JavaScript, jQuery, PHP, mySQL.</p>
                     <p>Team members: Rifat, Abir & Me</p>
                 </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3 work websites">
-                <h3><span class="span-color">"</span>WebSite-1</h3>
-                <p>I have made a website <a style="font-size: 120%;" href="https://nyn31.github.io/Omnifood1/index.html">Omnifood</a> Which is related with food services. I made this project Using HTML, CSS and jQuery. This website is fully Responsive for small devices.</p>
             </div>
+        </div>
+        <div class="row bottom-space">
+            <div class="col span-1-of-1 work website-1">
+                <div class="exp-heading">
+                    <h3>WebSite-1</h3>
+                    <div onclick="exptoggle4()">
+                        <i class="icon-middle fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <br> <br> <br> <br>
+                <div class="exp-hiding" id="expItems-4">
+                    <p>I have made a website <a style="font-size: 120%;" href="https://nyn31.github.io/Omnifood1/index.html">Omnifood</a> Which is related with food services. I made this project Using HTML, CSS and jQuery. This website is fully Responsive for small devices.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-space">
+            <div class="col span-1-of-1 work website-2">
+                <div class="exp-heading">
+                    <h3>WebSite-2</h3>
+                    <div onclick="exptoggle5()">
+                        <i id="expicon3" class="icon-middle fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <br> <br> <br> <br>
+                <div class="exp-hiding" id="expItems-5">
+                    <p>I have also made a E-commerce website <a style="font-size: 120%;" href="https://nyn31.github.io/Redstore2/index.html">Redstore</a> Which is related with various types of products. I made this project Using HTML, CSS and jQuery. This website is fully Responsive for small devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section-working-experience">
+        
+        <div class="row">
             <div class="col span-1-of-3 work websites">
                 <h3><span class="span-color">"</span>WebSite-2</h3>
                 <p>I have also made a E-commerce website <a style="font-size: 120%;" href="https://nyn31.github.io/Redstore2/index.html">Redstore</a> Which is related with various types of products. I made this project Using HTML, CSS and jQuery. This website is fully Responsive for small devices.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="section-projects">
         <div class="row">
@@ -350,21 +406,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="resources/js/script.js"></script>
     <script src="resources/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/index.js"></script>
 
 
-    <!-- JAVAScript -->
-    <script>
-        var MenuItems = document.getElementById("MenuItems") ;
-        MenuItems.style.maxHeight = "0px" ;
-
-        function menutoggle() {
-            if(MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "300px" ;
-            }else {
-             MenuItems.style.maxHeight = "0px" ;
-            }
-        }       
-    </script>
 </body>
 </html>
 
