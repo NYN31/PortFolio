@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #000 ;
+    background: #212529!important ;
     color: #fff ;
     font-family: 'Lato', sans-serif;
     font-size: 20px ;
@@ -193,7 +193,7 @@ header {
 
 .nav-list {
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .main-nav {
     float: right;
@@ -289,7 +289,7 @@ header {
 /****************************************/
 .section-education{
     padding: 2% 0;
-    background-color: #312c51;
+    /*background-color: #312c51;*/
 }
 .institute h3 {
     color: #ff884b;
@@ -309,21 +309,22 @@ header {
 /* Skill */
 /****************************************/
 .section-skill {
-    padding: 2% 0;
+    padding: 3% 0;
 }
 
 .skills-showcase {
     width: 100%;
-    padding: 0px 50px ;
+    padding: 1% 8%;
 }
-.skills-showcase  .skill-list {
+
+.skills-showcase  .skill-list img {
     display: block ;
     float: left ;
     overflow: hidden;
 }
 
 .skill-list img{
-    width: 95%;
+    width: 25%;
     height: auto;
     border-radius: 20px;
     transition: transform 0.5s, opacity 0.5s;
@@ -334,107 +335,34 @@ header {
 
 
 
-
-/****************************************/
-/* PROBLEM SOLVING EXPERIENCE */
-/****************************************/
-.section-CP-experience {
-    padding: 2% 0;
-    background-color: #00587a;
-}
-
-.all-judges .judge {
-    text-align : center ;
-    padding : 20px 20px ;
-    border: 1px solid #fff ;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2);
-    background : #312c51;
-}
-.all-judges .judge h3 {
-    font-family: 'Bree Serif', serif;
-    font-size: 150%;
-    font-weight: 700;
-    text-transform: none;
-}
-.judge p {
-    text-align: center;
-}
-
-.second-part { color: #fff; }
-.codeforces .second-part{
-    color: #1175e0;
-}
-.codechef .first-part{
-    color: #e27611;
-}
-.codechef .second-part{
-    color: #e4bc97 ;
-}
-.lightoj .first-part{
-    background-color: #9900cc;
-    padding: 0 3px;
-}
-.uva .first-part{
-    background-color: red;
-    padding: 0 3px;
-}
-.atcoder .first-part{
-    color: #42afda;
-}
-.spoj .first-part{
-    color: #169ad8;
-}
-.spoj .third-part{
-    color: #5eaaa8;
-}
-
 /****************************************/
 /* WORKING EXPERIENCE */
 /****************************************/
 
 .section-working-experience {
-    padding: 2% 0;
-    background-color: #00587a;
+    padding: 3% 0;
 }
-.section-working-experience .bottom-space {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+/* #64dfdf */
 .work{
-    background: #333;
-    padding: 10px 10px;
+    background: #111;
+
+    padding: 20px 10px;
     border-radius: 10px;
     line-height: 100%;
     width: 100%;
+    height: 260px;
+    border: .5px solid #fff opacity ;
 }
 .work h3{
-    color: #fff;
+    color: #e4bc97;
     font-family: 'Bree Serif', serif;
     font-weight: 700;
-    font-size: 150%;
-    padding-top: 2.5%;
-    margin-bottom: 0px;
-    float: left;
-}
-.work i {
-    float: right;
-    cursor: pointer;
-    padding-top: 2.5%;
 }
 .work p {
     opacity: 1;
     color: #fff;
-    font-size: 100%; 
-    padding-right: 30px;
-    line-height: 30px;
+    font-size: 75%; 
 }
-
-.exp-hiding {
-    margin-top: 20px;
-    text-align: left;
-    display:  none;
-}
-
 
 /****************************************/
 /* ALL PROJECTS */
@@ -464,7 +392,7 @@ header {
 /****************************************/
 .section-contact {
     padding: 2% 0;
-    background-color: #4d375d;
+    background-color: #312738;
 }
 
  .contact-list {
@@ -521,7 +449,6 @@ input[type=checkbox] {
 /****************************************/
 .section-footer {
     padding: 2% 0;
-    background-color: #222831;
     height: 200px;
 }
 

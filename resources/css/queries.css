@@ -8,12 +8,16 @@
     .row { padding: 0 2%; }
     h2 {font-size: 150%; }
     
+    .section-skill .skills-row .skills-showcase img{
+        width: 25%;
+    }
+
     .section-working-experience p, h3{
         font-size: 70%;
         line-height: 150%;
     }
     /* .work { height: 200px;} */
-    .work p { font-size: 100%; }
+    .work { height: 200px;}
     .long-copy { width: 80%; margin-left: 10%; font-size: 150%;}
     .project h3 { font-size: 100%; }
 }
@@ -33,11 +37,12 @@
 
     .section-education h3, p { font-size: 100%; }
 
-    .section-skill img {
+    /* .section-skill img {
         width: 150px;
         border-radius: 10px;
-    }
-    /* .exp-hiding { margin: 1% 1%; } */
+    } */
+    .section-working-experience h3 { font-size: 100%; }
+    
     .all-judges .judge {
         padding : 10px 5px ;
         cursor : pointer ;
@@ -93,7 +98,6 @@
     .institute { padding: 15px 10px; margin: 1% 0%; }
 
     /* skills */
-    .skill-list img { width: 80%; }
     .skill-list { margin: 1% 0%; }
     .all-judges .judge { margin: 1% 1%; }
     /* working experience */
@@ -126,12 +130,12 @@
     body h1 { font-size: 130%; }
     body h2 { font-size: 120%; }
     body h2:after { margin-top: 2%; width: 70px;}
-    .work p { font-size: 100%; }
+    .work p { font-size: 80%; }
     /* .exp-hiding { margin: 1% 1%; } */
     .contact-form {width: 100%; }
     .contact-form div h3 { margin-bottom: 20px; }
     .social-links li{ margin-left: 20px; }
-    .skill-list img { width: 100%; }
+    /* .skill-list img { width: 100%; } */
     .copyright {
         color: #888;
         text-align: center;
@@ -144,5 +148,5 @@
 @media only screen and (max-width: 376px) {
     body h1 { font-size: 100%; }
     body h2 { font-size: 90%; }
-    .skill-list img { width: 100%; }
+    /* .skill-list img { width: 100%; } */
 }
